@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='taxcore',
-    version='0.1.0',
+    version='0.1.2',
     description='A comprehensive technical analysis library for Python.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
