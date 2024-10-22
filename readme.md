@@ -15,9 +15,9 @@ This library provides a collection of technical analysis indicators for financia
 ## Installation
 
 To use this library, ensure you have Python installed along with the required libraries. You can install the dependencies using pip:
-
+```
 pip install numpy pandas
-
+```
 ## Usage
 ```bash
 import numpy as np
