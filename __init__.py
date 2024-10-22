@@ -1,8 +1,8 @@
 # Import all indicators from ta.py for easier access
-from taxcore import TechnicalAnalysis
+from TAxCore import TechnicalAnalysis
 
 # Define a version for your library
-__version__ = '0.1.0'
+__version__ = '0.1.2'
 
 # Optional: Categorize the indicators for users
 class MovingAverages:
