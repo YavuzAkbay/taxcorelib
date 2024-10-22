@@ -16,7 +16,7 @@ This library provides a collection of technical analysis indicators for financia
 
 To use this library, ensure you have Python installed along with the required libraries. You can install the dependencies using pip:
 ```
-pip install numpy pandas
+pip install numpy pandas taxcore
 ```
 ## Usage
 ```bash
