@@ -18,7 +18,7 @@ To use this library, ensure you have Python installed along with the required li
 
 pip install numpy pandas
 
-## Installation
+## Usage
 ```bash
 import numpy as np
 import pandas as pd
