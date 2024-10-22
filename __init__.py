@@ -1,5 +1,5 @@
 # Import all indicators from ta.py for easier access
-from TAxCoreLibrary.TAxCore.taxcore import TechnicalAnalysis
+from taxcore import TechnicalAnalysis
 
 # Define a version for your library
 __version__ = '0.1.0'
