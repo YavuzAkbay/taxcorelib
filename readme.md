@@ -23,7 +23,7 @@ pip install numpy pandas
 import numpy as np
 import pandas as pd
 import yfinance as yf
-from taxcore import TechnicalAnalysis
+from TAxCore import TechnicalAnalysis
 
 # Download historical price data for a stock (e.g., Apple)
 ticker = 'AAPL'
