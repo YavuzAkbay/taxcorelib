@@ -29,8 +29,8 @@ from TAxCore import TechnicalAnalysis
 ticker = 'AAPL'
 data = yf.download(ticker, start='2022-01-01', end='2023-01-01')
 
-# Extract closing prices using Numpy
-prices = data['Close'].to_numpy()
+# Extract closing prices using Numpy and ensure it's 1D
+prices = data['Close'].to_numpy().flatten()
 
 # Calculate Simple Moving Average (SMA)
 sma_values = TechnicalAnalysis.sma(prices, period=20)
